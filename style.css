@@ -1,52 +1,43 @@
 body {
   font-family: Arial, Helvetica, sans-serif;
-
 }
 
 /*  ----------------------   header   -------------------------- */
 header {
   height: 100px;
   background-color: #444;
-
 }
 
 header nav {
   width: 960px;
   margin: auto;
-
 }
 
 header img {
   margin-top: 15px;
   float: left;
-
 }
 
 header ul {
   float: left;
-
 }
 
 header li {
   display: inline;
   line-height: 100px;
-  padding: 30px;
 }
 
 header li:first-child {
   margin-left: 30px;
-
 }
 
 header li {
   margin-left: 85px;
-
 }
 
 header a {
   text-decoration: none;
   color: gray;
-  /* font-display: center; */
 }
 
 /* ------------------------   main   ---------------------------*/
@@ -54,18 +45,15 @@ header a {
 main {
   width: 960px;
   margin: auto;
-
 }
 
 main img {
   margin-top: 30px;
-
 }
 
-/* main li:first-child {
+main li:first-child {
   margin-left: 0px;
-
-} */
+}
 
 main li {
   margin-left: 30px;
@@ -75,22 +63,20 @@ main li {
 main article {
   width: 50%;
   float: right;
-
 }
 
 main h2 {
   font-size: 20px;
-  font: bold;
+  /* font: bold; */
   margin-left: 30px;
-  margin-top: 30px;
 }
 
 main p {
   font-style: italic;
   margin-left: 30px;
-  margin-top: 5px;
+  margin-top: 10px;
   line-height: 20px;
-  height: 330px;
+  height: 325px;
   overflow: auto;
 }
 
@@ -115,7 +101,6 @@ main div:hover {
 footer {
   height: 125px;
   background-color: #444;
-  margin-left: 30px;
   margin-top: 30px;
 
 }
